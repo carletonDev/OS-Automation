@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="" parallel="none">
+	<parameter name="browser" value="chrome"/>
+	<parameter name="LoginUrl" value=""/>
+	<parameter name="Username" value="site username"/>
+	<parameter name="Password" value="site password"/>
+<listeners>
+<!-- <listener class-name="generalUtilities.AnnotationTransformer" />
+<listener class-name="generalUtilities.FinishExecutionListener" />-->
+	<listener class-name="restAssuredUtilities.TestNgListeners" />
+</listeners>
+	<test name="TestName" parallel="none">
+		<classes>
+			<class name="tests.RegressionTestCase" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

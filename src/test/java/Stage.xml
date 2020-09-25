@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="InfoNet Staging" parallel="none">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="LoginUrl" value="url"></parameter>
+	
+	<listeners>
+		<listener class-name="listeners.TestNgListeners" />
+	</listeners>
+	<test name="googleYoutube" parallel="none">
+		<classes>
+			<class
+				name="demoTests.GoogleYoutube" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
